@@ -8,7 +8,7 @@ from collections import defaultdict
 
 app = Client("my_account")
 
-@app.on_message(filters.regex('я за ленина|да здраствует революция') & filters.me)
+@app.on_message(filters.regex('я за целителя|да здраствует целитель') & filters.me)
 def ghoul_spam_handler(client, message):
     i = 10000
     while i > 0:
