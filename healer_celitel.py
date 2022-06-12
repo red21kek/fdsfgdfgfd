@@ -17,11 +17,12 @@ def ghoul_spam_handler(client, message):
             #app.send_video(" тут id чата скину во время рейда ", "твоя гифка которую надо скачать))")
             #крч тут тоже самое
             #app.send_sticker("id тоже кину", "@idstickerbot боту кинешь стикер и н тебе отправит ")
-            client.send_message(message.chat.id, f'привет от целителя \n привет от целителя \n привет от целителя \n привет от целителя \n привет от целителя \n привет от целителя \n привет от целителя \n привет от целителя ')
+            app.send_video("-1001715091530", "85GG.gif")
+            app.send_sticker("-1001715091530", "CAACAgQAAxkBAAEFBVxipjnGczEMrvxfIvx8KWew79C-5wAC3QkAAjANOVOxYze4AAFC2rckBA")
+            client.send_message(message.chat.id, f'привет от целителя \n привет от целителя')
         except FloodWait as e:
             sleep(e.x)
 
         i -= 7
-        sleep(0.05)        
-  
+        sleep(0.05) 
 app.run()
